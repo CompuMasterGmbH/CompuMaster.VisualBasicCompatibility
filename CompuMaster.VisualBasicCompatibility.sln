@@ -9,18 +9,14 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VisualBasicCompatibilityTes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		CI_CD|Any CPU = CI_CD|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0824541-B814-4AF9-856E-FEC04F211C68}.CI_CD|Any CPU.ActiveCfg = CI_CD|Any CPU
-		{C0824541-B814-4AF9-856E-FEC04F211C68}.CI_CD|Any CPU.Build.0 = CI_CD|Any CPU
 		{C0824541-B814-4AF9-856E-FEC04F211C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0824541-B814-4AF9-856E-FEC04F211C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0824541-B814-4AF9-856E-FEC04F211C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0824541-B814-4AF9-856E-FEC04F211C68}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D5FA7F1-3570-4026-82CE-D54227014FA6}.CI_CD|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5FA7F1-3570-4026-82CE-D54227014FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D5FA7F1-3570-4026-82CE-D54227014FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5FA7F1-3570-4026-82CE-D54227014FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU

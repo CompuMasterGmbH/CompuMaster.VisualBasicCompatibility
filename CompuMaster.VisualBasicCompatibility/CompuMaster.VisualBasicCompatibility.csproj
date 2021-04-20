@@ -14,7 +14,7 @@
     <PackageTags>Microsoft.VisualBasic compatibility ControlChars</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>logo_64x64.png</PackageIcon>
-    <Configurations>Debug;Release;CI_CD</Configurations>
+    <Configurations>Debug;Release</Configurations>
     <Version>1.0.1</Version>
   </PropertyGroup>
 

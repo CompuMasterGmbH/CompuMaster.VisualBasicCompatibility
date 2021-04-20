@@ -24,9 +24,9 @@ env:
   SOLUTION_FILE_PATH: .
 
   # Configuration type to build
-  BUILD_CONFIGURATION: CI_CD
+  BUILD_CONFIGURATION: Debug
 
-  BUILD_OUTPUT: CompuMaster.VisualBasicCompatibility/bin/CI_CD
+  BUILD_OUTPUT: CompuMaster.VisualBasicCompatibility/bin/Debug
   BUILD_OUTPUT_TEST: CompuMaster.VisualBasicCompatibility/bin/Debug
 
 jobs:

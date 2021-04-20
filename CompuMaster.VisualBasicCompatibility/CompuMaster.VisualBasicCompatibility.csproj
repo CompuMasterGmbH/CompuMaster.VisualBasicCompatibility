@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jochen Wezel</Authors>
+    <Company>CompuMaster GmbH</Company>
+    <Product>CompuMaster.VisualBasicCompatibility</Product>
+    <Description>Add most important, missing API features of Microsoft.VisualBasic namespace to .NET Standard 2.0 profile, e.g. ControlChars</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>2021 CompuMaster GmbH</Copyright>
+    <PackageProjectUrl>https://github.com/CompuMasterGmbH/CompuMaster.VisualBasicCompatibility</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CompuMasterGmbH/CompuMaster.VisualBasicCompatibility.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Microsoft.VisualBasic compatibility ControlChars</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>logo_64x64.png</PackageIcon>
+    <Configurations>Debug;Release;CI_CD</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\logo_64x64.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

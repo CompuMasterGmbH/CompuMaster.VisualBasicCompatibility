@@ -9,3 +9,8 @@ Add most important, missing API features of `Microsoft.VisualBasic` namespace to
 Especially following partial implementations are available
 
 * ControlChars
+  * Cr
+  * Lf
+  * CrLf
+* Strings
+  * Space

@@ -15,6 +15,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>logo_64x64.png</PackageIcon>
     <Configurations>Debug;Release;CI_CD</Configurations>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

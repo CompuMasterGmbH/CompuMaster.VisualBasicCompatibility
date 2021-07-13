@@ -14,3 +14,17 @@ Especially following partial implementations are available
   * CrLf
 * Strings
   * Space
+  * Replace
+  * Trim
+  * LSet
+  * RSet
+  * LCase
+  * UCase
+  * InStr
+* Information
+  * IsDBNull
+  * IsNumeric
+  * IsDate
+  * IsNothing
+  * TriState
+  * VariantType

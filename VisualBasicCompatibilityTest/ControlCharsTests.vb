@@ -2,7 +2,7 @@ Imports NUnit.Framework
 
 Namespace VisualBasicCompatibilityTest
 
-    Public Class ControlCharsTests
+    <TestFixture> Public Class ControlCharsTests
 
         <SetUp>
         Public Sub Setup()

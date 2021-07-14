@@ -16,6 +16,12 @@ Namespace VisualBasicCompatibilityTest
             Assert.AreEqual("bc", Strings.Mid("abcdef", 2, 2))
             Assert.AreEqual("", Strings.Mid("", 2))
             Assert.AreEqual("", Strings.Mid("", 2, 2))
+            Assert.AreEqual("", Strings.Mid("abcdef", 20))
+            Assert.AreEqual("abcdef", Strings.Mid("abcdef", 1, 6))
+            Assert.AreEqual("abcdef", Strings.Mid("abcdef", 1, 7))
+            Assert.AreEqual("bcdef", Strings.Mid("abcdef", 2, 6))
+            Assert.AreEqual("def", Strings.Mid("abcdef", 4, 6))
+            Assert.AreEqual("def", Strings.Mid("abcdef", 4))
         End Sub
 
         <Test> Public Sub ReplaceTest()

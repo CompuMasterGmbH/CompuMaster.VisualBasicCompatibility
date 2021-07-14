@@ -26,7 +26,10 @@ namespace CompuMaster.VisualBasicCompatibility
             else if (startPosition > text.Length)
                 return "";
             else
-                return text.Substring(startPosition - 1, length);
+            {
+                int MaxReadLength = System.Math.Min(text.Length - (startPosition - 1), length);
+                return text.Substring(startPosition - 1, MaxReadLength);
+            }
         }
 
         public static string Replace(string value, string search, string replacement)

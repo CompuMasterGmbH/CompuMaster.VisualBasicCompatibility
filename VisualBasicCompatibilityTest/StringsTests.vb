@@ -9,6 +9,22 @@ Namespace VisualBasicCompatibilityTest
         Public Sub Setup()
         End Sub
 
+        <Test> Public Sub LeftTest()
+            Assert.AreEqual("", Strings.Left(Nothing, 0))
+            Assert.AreEqual("", Strings.Left(Nothing, 2))
+            Assert.AreEqual("", Strings.Left("abcdef", 0))
+            Assert.AreEqual("ab", Strings.Left("abcdef", 2))
+            Assert.AreEqual("abcdef", Strings.Left("abcdef", 8))
+        End Sub
+
+        <Test> Public Sub RightTest()
+            Assert.AreEqual("", Strings.Right(Nothing, 0))
+            Assert.AreEqual("", Strings.Right(Nothing, 2))
+            Assert.AreEqual("", Strings.Right("abcdef", 0))
+            Assert.AreEqual("ef", Strings.Right("abcdef", 2))
+            Assert.AreEqual("abcdef", Strings.Right("abcdef", 8))
+        End Sub
+
         <Test> Public Sub MidTest()
             Assert.AreEqual(Nothing, Strings.Mid(Nothing, 2))
             Assert.AreEqual("", Strings.Mid(Nothing, 2, 2))

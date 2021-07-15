@@ -4,6 +4,26 @@ namespace CompuMaster.VisualBasicCompatibility
 {
     public static class Strings
     {
+        public static string Left(string value, int number)
+        {
+            if (value == null)
+                return "";
+            else if (number >= value.Length)
+                return value;
+            else
+                return value.Substring(0, number);
+        }
+
+        public static string Right(string value, int number)
+        {
+            if (value == null)
+                return "";
+            else if (number >= value.Length)
+                return value;
+            else
+                return value.Substring(value.Length - number);
+        }
+
         public static string Space(int number)
         {
             return "".PadLeft(number);

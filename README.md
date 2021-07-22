@@ -12,6 +12,10 @@ Especially following partial implementations are available
   * Cr
   * Lf
   * CrLf
+  * VerticalTab
+  * NullChar
+  * Back
+  * FormFeed
 * Strings
   * Space
   * Replace

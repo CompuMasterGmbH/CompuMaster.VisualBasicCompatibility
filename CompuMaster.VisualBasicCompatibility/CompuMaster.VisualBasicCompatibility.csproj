@@ -12,10 +12,15 @@
     <RepositoryUrl>https://github.com/CompuMasterGmbH/CompuMaster.VisualBasicCompatibility.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Microsoft.VisualBasic compatibility ControlChars</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageIcon>logo_64x64.png</PackageIcon>
     <Configurations>Debug;Release</Configurations>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <OutputPath />
   </PropertyGroup>
 
   <ItemGroup>

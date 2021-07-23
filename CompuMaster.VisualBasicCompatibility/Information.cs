@@ -2,7 +2,7 @@
 
 namespace CompuMaster.VisualBasicCompatibility
 {
-    static internal class Information
+    public static class Information
     {
         public static bool IsDate(object value)
         {

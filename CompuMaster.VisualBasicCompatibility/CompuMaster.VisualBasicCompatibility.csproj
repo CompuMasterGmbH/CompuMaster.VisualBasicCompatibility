@@ -15,7 +15,7 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageIcon>logo_64x64.png</PackageIcon>
     <Configurations>Debug;Release</Configurations>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">

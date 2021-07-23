@@ -4,6 +4,11 @@ namespace CompuMaster.VisualBasicCompatibility
 {
     public static class Strings
     {
+        public static string Join(string[] values, string separator)
+        {
+            return System.String.Join(separator, values);
+        }
+
         public static string Left(string value, int number)
         {
             if (value == null)

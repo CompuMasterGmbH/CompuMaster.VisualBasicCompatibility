@@ -7,7 +7,7 @@
     <Product>CompuMaster.VisualBasicCompatibility</Product>
     <Description>Add most important, missing API features of Microsoft.VisualBasic namespace to .NET Standard 2.0 profile, e.g. ControlChars</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Copyright>2021 CompuMaster GmbH</Copyright>
+    <Copyright>2021-2024 CompuMaster GmbH</Copyright>
     <PackageProjectUrl>https://github.com/CompuMasterGmbH/CompuMaster.VisualBasicCompatibility</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CompuMasterGmbH/CompuMaster.VisualBasicCompatibility.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
